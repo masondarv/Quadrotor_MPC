@@ -21,12 +21,5 @@
         <mesh filename="package://drake/examples/quadrotor/skydio_2_1000_poly.obj" scale=".00254"/>
       </geometry>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <box size=".36 .4 .06"/>
-      </geometry>
-    </collision>
   </link>
-  <frame link="base_link" name="body" rpy="0 0 0" xyz="0 0 0" />
 </robot>
