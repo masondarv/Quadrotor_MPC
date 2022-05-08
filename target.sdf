@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="target">
+    <link name="target_body">
+      <visual name="target_visual">
+        <pose>0 0 0  0 0 0</pose>
+        <geometry>
+          <sphere>
+            <radius> 0.05 </radius>
+          </sphere>
+        </geometry>
+        <material>
+          <diffuse>1.0 0.0 0.0 1.0</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
